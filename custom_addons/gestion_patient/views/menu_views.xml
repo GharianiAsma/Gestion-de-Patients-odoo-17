@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Menu principal -->
+    <menuitem id="menu_patient_root" name="Patients" sequence="10"/>
+   
+    <!-- Sous-menus -->
+    <menuitem id="menu_patient" name="Gestion Patient" parent="menu_patient_root" action="gestion_patient_action" sequence="1"/>
+    <menuitem id="menu_rdv" name="Rendez-vous" parent="menu_patient_root" action="gestion_rdv_action" sequence="2"/>
+    <menuitem id="menu_facture" name="Factures" parent="menu_patient_root" action="liste_facture_action" sequence="3"/>
+    <menuitem id="menu_patient_statistiques"
+          name="Statistiques des Patients"
+          parent="menu_patient_root"
+          action="action_gestion_patient_statistics"/>
+
+
+
+
+</odoo>

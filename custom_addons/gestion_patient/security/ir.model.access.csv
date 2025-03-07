@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gestion_patient_user,gestion.patient.user,model_gestion_patient,base.group_user,1,1,1,1
+access_gestion_rdv_user,gestion.rdv.user,model_gestion_rdv,base.group_user,1,1,1,1
+access_liste_facture_user,liste.facture.user,model_liste_facture,base.group_user,1,1,1,1
+access_gestion_patient_admin,gestion.patient.admin,model_gestion_patient,base.group_erp_manager,1,1,1,1
+

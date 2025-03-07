@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+     <record id="view_gestion_patient_graph" model="ir.ui.view">
+        <field name="name">gestion.patient.graph.view</field>
+        <field name="model">gestion.patient</field>
+        <field name="arch" type="xml">
+            <graph string="Répartition des patients par âge" type="bar">
+                <field name="age" type="category"/>
+                <field name="id" type="measure"/>
+            </graph>
+        </field>
+    </record>
+    <!-- Action pour afficher la vue graphique -->
+    <record id="action_gestion_patient_statistics" model="ir.actions.act_window">
+        <field name="name">Statistiques Patients</field>
+        <field name="res_model">gestion.patient</field>
+        <field name="view_mode">graph</field>
+        <field name="context">{}</field>
+    </record>
+
+
+</odoo>

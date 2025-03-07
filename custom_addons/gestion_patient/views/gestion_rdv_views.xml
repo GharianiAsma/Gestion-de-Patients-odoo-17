@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Vue Liste pour les Rendez-vous -->
+    <record id="gestion_rdv_view_tree" model="ir.ui.view">
+        <field name="name">gestion.rdv.tree</field>
+        <field name="model">gestion.rdv</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="date_rdv"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Vue Formulaire pour les Rendez-vous -->
+    <record id="gestion_rdv_form_view" model="ir.ui.view">
+        <field name="name">gestion.rdv.form</field>
+        <field name="model">gestion.rdv</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="date_rdv"/>
+                    </group>
+                    <notebook>
+                        <page string="Patients">
+                            <field name="patient_ids"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action Window -->
+    <record id="gestion_rdv_action" model="ir.actions.act_window">
+        <field name="name">Rendez-vous</field>
+        <field name="res_model">gestion.rdv</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
+

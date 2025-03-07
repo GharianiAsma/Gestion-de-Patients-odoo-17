@@ -1,0 +1,9 @@
+2024-07-13 19:55:55,463 18320 INFO ? odoo: Odoo version 17.0-20240628 
+2024-07-13 19:55:55,463 18320 INFO ? odoo: Using configuration file at C:\Users\assou\Desktop\Projets_Odoo\Projet3\odoo.conf
+2024-07-13 19:55:55,463 18320 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 17.0.20240628\\server\\odoo\\addons', 'c:\\program files\\odoo 17.0.20240628\\sessions\\addons\\17.0', 'c:\\program files\\odoo 17.0.20240628\\server\\odoo\\addons', 'c:\\users\\assou\\desktop\\projets_odoo\\projet3\\custom_addons']
+2024-07-13 19:55:55,463 18320 INFO ? odoo: database: openpg@localhost:5432 
+2024-07-13 19:55:55,732 18320 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 17.0.20240628\thirdparty\wkhtmltopdf.exe 
+2024-07-13 19:55:57,028 18320 INFO ? odoo.service.server: HTTP service (werkzeug) running on Asssouma:8069 
+2024-07-13 19:56:26,366 18320 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-13 19:56:26,366 18320 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-13 19:56:26,423 18320 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
